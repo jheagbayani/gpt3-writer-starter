@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>GPT-3 Writer | buildspace & Jay</title>
       </Head>
       <div className="container">
         <div className="header">
@@ -60,7 +60,7 @@ const Home = () => {
               onClick={callGenerateEndpoint}
             >
               <div className="generate">
-              {isGenerating ? <span className="loader"></span> : <p>Generate</p>}
+              {isGenerating ? <span className="loader"></span> : <p>What to eat?</p>}
               </div>
             </a>
           </div>
